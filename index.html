@@ -1,0 +1,167 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=section, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="registyle.css">
+    <title>basic banking system</title>
+<style>
+a{
+ 
+ text-decoration: none;
+ margin:2px;
+ }
+ li{
+  display:inline;
+ }
+
+i{
+  display:inline-block;
+  position: relative;
+  left:75%;
+  top:1;
+  margin:1%;
+}
+section div nav ul li a{
+    text-decoration: none;
+    color:black;
+    /*text-shadow: 3px 0px 1px black;*/
+    
+}
+.links{
+
+display: inline;
+font-weight: 700;
+text-align: center;
+margin-left: 40px;
+
+
+font-size: 2rem;
+}
+ul{
+    margin-top: 0px;
+}
+h1{
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+.head{
+    border: 2px solid black;
+}
+body
+   {
+    background-color:rgb(229, 237, 241);;
+
+   }
+.btn{
+    margin: 30px;
+    width:210px;
+    height:50px;
+    font-size:20px;
+    margin-left:207px;
+    background-color:rgb(156, 156, 156);
+
+   
+    
+   }
+   .bt{
+    margin: 30px;
+    width:210px;
+    height:50px;
+    font-size:20px;
+    background-color:rgb(156, 156, 156);
+   }
+
+   .btn:hover{
+   background-color:rgb(114, 170, 196);
+   }
+   .bt:hover{
+   background-color:rgb(114, 170, 196);
+   }
+
+   .container
+    {
+        background-color: rgb(114, 170, 196);
+        margin-top:50px;
+        margin-left: 150px;
+    }
+    input[type=submit]{
+        background:rgb(17, 73, 99);
+    }
+    .about_container{
+        border: 2px solid black;
+        margin-top: 100px;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 20px;
+
+    }
+    </style>
+    
+</head>
+<body>
+    <section class="home">
+        <!-- <div style="display: block;"><img class="backg" src="images/backg.jpg" alt="home"></div> -->
+        
+    <div class="head">
+        <h1>The Sparks Foundation Bank </h1>
+        </div>
+        
+        <div class="content">
+         
+            <nav> 
+                <ul>
+                    <li class="links"><a href="#about">Home</a> </li>
+                    <li class="links"><a href="View_Customer.php">View customers</a></li>
+                    <li class="links"><a href="faq.php">Faq</a> </li>
+                    <li class="links"><a href="#about">About us</a> </li>
+                    <button class="btn"><b>Email Us</b></button></a>
+                    <button class="bt"><b>Call Us</b></button></a>
+                </ul>
+            </nav>
+        </div>
+    </section>
+    <div class="container">
+       New user? Register here
+        <form method="post" action="register.php" enctype="multipart/form-data">
+            <div class="formgrup">
+                <input type="text" name="email1" placeholder="Enter email address" required>
+            </div>
+            <div class="formgrup">
+               <input type="text" name="name" placeholder="Enter name" required>
+           </div>
+            <div class="formgrup">
+               <input type="text" name="accno" placeholder="Enter account number" required>
+           </div>
+           <div class="formgrup">
+               <input type="text" name="password1" placeholder="Create password" required>
+           </div>
+           <div class="formgrup">
+               <input type="text" name="password2" placeholder="confirm password">
+           </div>
+           <div class="formgrup">
+           <input type="submit" name="submit" value="submit">
+           </div>
+        </form>
+     </div>
+     <div id="about"class="about_container">
+       
+        
+        <div class="about_content">
+            <div><h1 align="center" style="margin-bottom: 4%; font-size:250%;font-family:'palatino',serif; ">About Us</h1></div>
+            <div align="center" style=" font-size:100%;">
+               Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente enim sit quod. Cupiditate quisquam, blanditiis labore facilis ipsa provident aut accusamus voluptatem, suscipit est sit dolorem quasi, minus harum neque.Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente enim sit quod. Cupiditate quisquam, blanditiis labore facilis ipsa provident aut accusamus voluptatem, suscipit est sit dolorem quasi, minus harum neque.Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente enim sit quod. Cupiditate quisquam, blanditiis labore facilis ipsa provident aut accusamus voluptatem, suscipit est sit dolorem quasi, minus harum neque.
+                
+        
+            </div>
+          
+          
+       </div>
+   </div>
+
+   
+   
+</body>
+</html>
